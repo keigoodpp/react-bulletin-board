@@ -1,0 +1,29 @@
+/* Header.css */
+.Header {
+  background-color: #90ee90; /* 薄い緑色 */
+  min-height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  padding: 0 20px;
+}
+
+.Header h1 {
+  font-weight: bold;
+}
+
+.Header nav ul {
+  list-style-type: none;
+}
+
+.Header nav ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+.Header a {
+  color: white;
+  text-decoration: none;
+}
